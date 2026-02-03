@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
+/* Prevent mobile overflow issues */
 html, body {
   width: 100%;
-  overflow-x: hidden;   /* horizontal scroll remove */
+  overflow-x: hidden;
 }
 
 body {
@@ -18,16 +19,16 @@ body {
 
 /* Header */
 header {
-  padding: 50px 20px;   /* reduced */
+  padding: 50px 20px; /* reduced */
   background: linear-gradient(to right, #00bf8f, #001510);
 }
 
 /* Sections */
 section {
-  padding: 30px 20px;   /* reduced */
+  padding: 30px 20px; /* reduced */
 }
 
-/* Titles */
+/* Headings */
 h2 {
   margin-bottom: 15px;
   color: #00e6e6;
@@ -43,12 +44,12 @@ h2 {
   font-size: 14px;
 }
 
-/* Card */
+/* Project Card */
 .card {
   background: rgba(255,255,255,0.1);
   margin: 10px auto;
   padding: 16px;
-  width: 90%;          /* mobile friendly */
+  width: 90%;
   max-width: 300px;
   border-radius: 10px;
 }
@@ -72,10 +73,12 @@ footer {
   padding: 15px;
   background: #000;
 }
+
+/* 📱 Mobile screen fix */
 @media (max-width: 768px) {
 
   body {
-    min-height: auto;   /* extra screen height remove */
+    min-height: auto;
   }
 
   header {
@@ -90,4 +93,3 @@ footer {
     padding: 12px;
   }
 }
-
