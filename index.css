@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Prevent mobile overflow issues */
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 body {
   font-family: Arial, sans-serif;
   background: #0f2027;
@@ -17,50 +11,42 @@ body {
   text-align: center;
 }
 
-/* Header */
 header {
-  padding: 50px 20px; /* reduced */
+  padding: 60px 20px;
   background: linear-gradient(to right, #00bf8f, #001510);
 }
 
-/* Sections */
 section {
-  padding: 30px 20px; /* reduced */
+  padding: 40px 20px;
 }
 
-/* Headings */
 h2 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #00e6e6;
 }
 
-/* Skills */
 .skill-box {
   display: inline-block;
-  margin: 6px;
-  padding: 8px 16px;
+  margin: 10px;
+  padding: 10px 20px;
   border: 1px solid #00e6e6;
   border-radius: 20px;
-  font-size: 14px;
 }
 
-/* Project Card */
 .card {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   margin: 10px auto;
-  padding: 16px;
-  width: 90%;
-  max-width: 300px;
+  padding: 20px;
+  width: 300px;
   border-radius: 10px;
 }
 
-/* Button */
 button {
-  padding: 10px 22px;
+  padding: 12px 25px;
   background: #00e6e6;
   border: none;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -68,28 +54,7 @@ button:hover {
   background: #00b3b3;
 }
 
-/* Footer */
 footer {
-  padding: 15px;
+  padding: 20px;
   background: #000;
-}
-
-/* 📱 Mobile screen fix */
-@media (max-width: 768px) {
-
-  body {
-    min-height: auto;
-  }
-
-  header {
-    padding: 35px 15px;
-  }
-
-  section {
-    padding: 20px 15px;
-  }
-
-  footer {
-    padding: 12px;
-  }
 }
