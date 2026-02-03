@@ -1,92 +1,61 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-/* HEADER */
-header {
-  padding: 50px 20px;
-  background: linear-gradient(to right, #00bf8f, #001510);
-}
-
-header h1 {
-  font-size: 28px;
-}
-
-header p {
-  margin-top: 8px;
-  opacity: 0.9;
-}
-
-/* SECTIONS */
-section {
-  padding: 35px 20px;
-}
-
-h2 {
-  margin-bottom: 25px;
-  color: #00e6e6;
-}
-
-/* SKILLS */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-}
-
-.skill-box {
-  padding: 8px 18px;
-  border: 1px solid #00e6e6;
-  border-radius: 20px;
-  font-size: 14px;
-}
-
-/* PROJECTS */
-.projects {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 20px;
-  width: 280px;
-  border-radius: 12px;
-  backdrop-filter: blur(5px);
-}
-
-/* CONTACT */
-button {
-  padding: 12px 26px;
-  background: #00e6e6;
-  border: none;
-  border-radius: 6px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #00b3b3;
-}
-
-/* FOOTER */
-footer {
-  margin-top: auto;
-  padding: 15px;
-  background: #000;
-  font-size: 13px;
-  opacity: 0.8;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #0f2027;
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #00bf8f, #001510);
+      
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #00e6e6;
+  }
+  
+  .skill-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #00e6e6;
+    border-radius: 20px;
+  }
+  
+  .card {
+    background: rgba(255,255,255,0.1);
+    margin: 10px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background: #00e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #00b3b3;
+  }
+  
+  footer {
+    padding: 20px;
+    background: #000;
+  }
