@@ -14,6 +14,7 @@
   header {
     padding: 60px 20px;
     background: linear-gradient(to right, #00bf8f, #001510);
+      min-height:auto;
   }
   
   section {
@@ -57,4 +58,5 @@
   footer {
     padding: 20px;
     background: #000;
+      margin-bottom:0;
   }
