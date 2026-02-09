@@ -4,49 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jaya Kavitha | Full Stack Developer</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index2.css">
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Jaya Kavitha</h1>
-    <p>Full Stack Web Developer</p>
+    <div class="container header-content">
+      <h1>Jaya Kavitha</h1>
+      <p>Full Stack Web Developer</p>
+      <a href="#contact" class="btn-primary">Hire Me</a>
+    </div>
   </header>
 
-  <section class="about">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about" class="nav-link active">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
     <h2>About Me</h2>
     <p>
-      I am a fresher Full Stack Web Developer. I work with both frontend and backend technologies
-      and I am passionate about building complete web applications.
+      I am a fresher Full Stack Web Developer skilled in both frontend and backend technologies.
+      I am passionate about creating complete web applications that are clean, responsive, and user-friendly.
     </p>
   </section>
 
-  <section class="skills">
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
     <h2>Skills</h2>
-    <div class="skill-box">HTML</div>
-    <div class="skill-box">CSS</div>
-    <div class="skill-box">JavaScript</div>
-    <div class="skill-box">Bootstrap</div>
-    <div class="skill-box">PHP</div>
-    <div class="skill-box">MySQL</div>
-  </section>
-
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Portfolio Website</h3>
-      <p>Built using HTML, CSS, and JavaScript</p>
+    <div class="skills-grid">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Bootstrap</div>
+      <div class="skill-box">PHP</div>
+      <div class="skill-box">MySQL</div>
     </div>
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <button onclick="sayHello()">Say Hi 👋</button>
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Built using HTML, CSS, and JavaScript</p>
+      </div>
+      <div class="card">
+        <h3>Lifesaver App</h3>
+        <p>Built using kodular </p>
+      </div>
+      <div class="card">
+        <h3>Website</h3>
+        <p>Built using HTML ,CSS,JavaScript PHP and MySQL</p>
+      </div>
+    </div>
   </section>
 
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <div class="contact-box">
+      <p>📞 <strong>Phone:</strong> <a href="tel:8190978952">8190978952</a></p>
+      <p>📧 <strong>Email:</strong> <a href="mailto:jayakaviithaa@gmail.com">jayakaviithaa@gmail.com</a></p>
+      <p>🏠 <strong>Address:</strong> 
+        <a href="https://www.google.com/maps/search/?api=1&query=Veliyathur,Sivagangai+district" target="_blank">
+          Veliyathur, Sivagangai district
+        </a>
+      </p>
+    </div>
+  </section><br></br><br></br>
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTop">⬆</button>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2026 Jaya Kavitha | Full Stack Web Developer</p>
+    <p>© 2026 Jayamkavi | Full Stack Web Developer</p>
   </footer>
 
-  <script src="index.js"></script>
+  <!-- SCRIPT -->
+  <script src="index3.js"></script>
 </body>
 </html>
